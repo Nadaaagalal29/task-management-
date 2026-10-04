@@ -1,0 +1,58 @@
+.circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  position: relative;
+  margin:1rem auto;
+}
+
+.mask, .fill {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mask {
+  clip: rect(0px, 180px, 180px, 90px); /* Adjust clip to handle 75% */
+}
+
+.mask.full, .circle .fill {
+  clip: rect(0px, 90px, 180px, 0px);
+}
+
+.fill {
+  background: rgba(51, 172, 114, 1);
+  transform: rotate(360deg); /* Rotates the fill to 75% */
+}
+
+.circle .inside-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 124px;
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(51, 172, 114, 1);
+  p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -62%;
+    color: rgba(18, 18, 18, .5); 
+    }
+    
+
+}
+
+.mask.half .fill {
+  transform: rotate(135deg); /* Adjust for half circle effect */
+}

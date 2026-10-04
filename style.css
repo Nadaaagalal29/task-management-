@@ -1,0 +1,108 @@
+.bg-layout{
+    background-color: #EAEEF6;
+}
+.text-blue{
+    color: #08A0F7;
+}
+.bg-lg-grey{
+    background-color: #F4F7FC;
+}
+.text-color{
+    color: #121212;
+}
+.text-color-op50{
+color: rgba(18, 18, 18, 0.5);
+}
+.rounded-8{
+    border-radius: 8px;
+}
+.progress{
+    height: 5px;
+    
+}
+.text-co{
+    color: #41475E;
+
+}
+.Copywriting-color{
+    background-color:  #D459E8;
+
+}
+.Illustrations-color{
+    background-color: #46BD84;
+
+
+}
+.UIDesign-color{
+    background-color: #08A0F7;
+
+}
+.icon-24 {
+    width: 24px;
+    height: 24px;
+}
+.Normal-btn{
+    background-color: #7784EE !important;
+    color: white !important;
+
+}
+.Loading-btn{
+    background-color: #D2D7FF !important;
+    color:  #5F6DDD !important;
+
+}
+.Secondary-btn{
+    border: 1px solid #7784EE !important;
+    background-color: #EAEEF6 !important;
+    color: #7784EE !important;
+
+}
+.danager{
+    border: 0.5px solid #F85640;
+    background-color: #FFF8F8;
+    color: #F85640;
+}
+.deep-red{
+    color: #79170A;
+
+}
+.alrt{
+    border: 0.5px solid #FBA63C;
+    background-color: #FFF8EF;
+    color: #E18109;
+
+
+}
+.deep-yellow{
+    color: #BC741A;
+
+}
+.Success{
+    border: 0.5px solid #34A770;
+    background-color: #DCF3EB;
+    color: #13854E;
+
+
+}
+.deep-green{
+    color: #10673E;
+
+}
+.fs-16 {
+    font-size: 16px;
+}
+.info{
+    border: 0.5px solid #08A0F7;
+    background-color: #E1F2FC;
+    color:#08A0F7;
+
+
+}
+.deep-blue{
+    color: #3387B7;
+
+}
+.pill-tag{
+    background-color: rgba(8, 160, 247, 0.2);
+    color: #1778B0;
+}
